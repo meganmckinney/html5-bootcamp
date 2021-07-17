@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Registration</title>
+    <style>
+        fieldset {
+            width: 700px;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Account Registration</h1>
+<form>
+    <fieldset>
+        <legend>Type of User</legend>
+        <label for="typeOfUser">What type of user are you?</label>
+        <input type="radio" id="typeOfUser" name="customer" value="customer">
+        <label>Customer</label>
+        <input type="radio" id="typeOfUser" name="customer" value="customer">
+        <label>Employee/Contractor</label>
+        <input type="radio" id="typeOfUser" name="customer" value="customer">
+        <label>Federal Employee/Contractor</label>
+    </fieldset>
+    <fieldset >
+        <legend>Email</legend>
+            <label for="personalEmail">Personal Email Address</label>
+            <input type="email" id="personalEmail" value="Joseph">
+            <label for="businessEmail">Business Email Address</label>
+            <input type="email" id="businessEmail">
+    </fieldset>
+    <fieldset >
+        <legend>Password</legend>
+                <label for="personalPwd">Password</label>
+                <input type="password" id="personalPwd" value="secret">
+    </fieldset>
+    <fieldset>
+        <legend>Use Case</legend>
+        <label for="useCase">I'm interested in:</label>
+        <select name="Use Case" id="useCase">
+          <option value="personal">Personal</option>
+          <option value="cheese">Cheese</option>
+          <option value="cardboard">Cardboard</option>
+          <option value="mitosis">Mitosis</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit"> 
+    </fieldset>
+    <fieldset>
+        <legend>Age Verification</legend>
+        <label for="ageVerification">I am over 18 years of age.</label>
+        <input type="checkbox">
+    </fieldset>
+</form>
+</body>
+</html>
